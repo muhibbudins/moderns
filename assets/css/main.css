@@ -1,0 +1,209 @@
+/* Color Variable */
+/* Function Variable */
+/* Header Area */
+.ui.fixed.top.menu {
+  top: 5px;
+  justify-content: center;
+  border: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.ui.fixed.top.menu.slide.up {
+  top: -75px;
+}
+.ui.fixed.top.menu .item {
+  color: #27ae60;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ui.fixed.top.menu .item.logo {
+  background-color: #43d580;
+  color: #f7fdff;
+  font-size: 20px;
+}
+.ui.fixed.top.menu .item.logo:hover {
+  background-color: #36d278;
+}
+.ui.fixed.top.menu .item:hover {
+  background-color: #36d278;
+  color: #f7fdff;
+}
+.ui.fixed.top.menu .item:before {
+  background: none;
+}
+.ui.fixed.top.menu .item.icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .ui.fixed.top.menu .item:not(.icon) {
+    display: none;
+  }
+  .ui.fixed.top.menu .item.icon {
+    display: block;
+  }
+}
+.ui.vertical.menu.collapse {
+  position: fixed;
+  top: -200vh;
+  z-index: 100;
+  border-radius: 0;
+  border: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.ui.vertical.menu.collapse.slide.down {
+  top: 50px;
+}
+@media (min-width: 769px) {
+  .ui.vertical.menu.collapse {
+    display: none;
+  }
+}
+.ui.vertical.menu.collapse .item {
+  color: #27ae60;
+  padding: 15px 20px;
+  font-size: 13px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.ui.vertical.menu.collapse .item.logo {
+  display: none;
+}
+.ui.vertical.menu.collapse .item:hover {
+  background-color: #36d278;
+  color: #f7fdff;
+}
+.ui.vertical.menu.collapse .item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.ui.vertical.menu.collapse .item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.progress.bar {
+  position: fixed;
+  top: 0;
+  z-index: 101;
+  height: 20px;
+  width: 100%;
+  background-color: #36d278;
+}
+.container.slider {
+  max-height: 500px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .container.slider {
+    max-height: 300px;
+  }
+}
+.container.slider img {
+  width: 100%;
+}
+/* Content Area */
+body {
+  padding-top: 75px;
+}
+.ui.vertical.menu.moderns {
+  border-radius: 0;
+  border: none;
+}
+.ui.vertical.menu.moderns .item.header {
+  background-color: #2cc36b;
+  color: #f7fdff;
+  text-transform: uppercase;
+}
+.ui.vertical.menu.moderns .item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.ui.vertical.menu.moderns .item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.ui.segments.moderns {
+  border-radius: 0;
+  border: none;
+}
+.ui.segments.moderns .segment.header {
+  background-color: #2cc36b;
+  color: #f7fdff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px 17px;
+}
+.ui.segments.moderns .segment:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.ui.segments.moderns .segment:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100px;
+  text-align: center;
+}
+.section.one {
+  padding-top: 40px;
+  min-height: 200px;
+}
+.section.two {
+  min-height: 200px;
+}
+.section.two .ui.segment {
+  box-shadow: none;
+  height: 200px;
+}
+.section.two .ui.segment i.icon {
+  font-size: 60px;
+}
+.section.three {
+  background-color: #2ecc71;
+  color: #f7fdff;
+}
+.section.four {
+  min-height: 200px;
+}
+/* Footer Area */
+.container.footer {
+  background-color: #2cc36b;
+  color: #f7fdff;
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container.footer .header {
+  color: #f7fdff;
+}
+.ui.list a.item {
+  color: #f7fdff;
+}
+.ui.list a.item:hover {
+  color: #f7fdff;
+}
+.copyright {
+  background-color: #f7fdff;
+  text-align: center;
+  padding: 20px;
+}
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 101;
+  background-color: #36d278;
+}
+#toTop i {
+  font-size: 25px;
+  color: #f7fdff;
+}
